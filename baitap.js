@@ -26,3 +26,10 @@ function laisuat() {
     let so_tien_phai_tra = parseFloat(so_tien_vay) + so_tien_lai_don * nam;
     document.write("Số tiền lãi phải trả là: " + so_tien_phai_tra);
 }
+
+// thư
+function thu() {
+    let name = prompt ("Hãy nhập tên người nhận:");
+    let address = prompt ("Hãy nhập địa chỉ");
+    let date = prompt("Hãy nhạp thời gian:");
+    document.write(
