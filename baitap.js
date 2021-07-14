@@ -32,5 +32,5 @@ function thu() {
     let name = prompt ("Hãy nhập tên người nhận:");
     let address = prompt ("Hãy nhập địa chỉ");
     let date = prompt("Hãy nhập thời gian:");
-    document.write(address + " ," + date + ".")
+    document.write(address + " ," + date + ".");
     }
